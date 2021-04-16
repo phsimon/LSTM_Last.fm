@@ -5,7 +5,8 @@ The dataset is built from Last.fm dataset (data are organized in sequences of le
 ## LSTM notebooks
 This directory contains the notebooks coding LSTM models (a seq2one and a seq2seq models)
 - "target_ten_lastFM_1k_LSTM_Embeddings_multilabel_session_dataset_filtered_item.ipynb" for LSTM Seq2Seq model
-- "target_one_lastFM_1k_LSTM_Embeddings_multilabel_session_dataset_filtered_item.ipynb" for LSTM Seq2Seq model
+  - as this model give the better results, we implement in data preparation the possibility of removing items form validation and test set which are not in the train set (see "Filter items from validation and test set which are not in the train set"). this step can be skipped
+- "target_one_lastFM_1k_LSTM_Embeddings_multilabel_session_dataset_filtered_item.ipynb" for LSTM Seq2one model
 
 ## RS assement
 Contains a notebooks gathering many common recommender used as baseline and comparison
