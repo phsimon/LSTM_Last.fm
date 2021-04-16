@@ -8,6 +8,8 @@ This directory contains the notebooks coding LSTM models (a seq2one and a seq2se
   - as this model give the better results, we implement in data preparation the possibility of removing items form validation and test set which are not in the train set (see "Filter items from validation and test set which are not in the train set"). this step can be skipped
 - "target_one_lastFM_1k_LSTM_Embeddings_multilabel_session_dataset_filtered_item.ipynb" for LSTM Seq2one model
 
+The data building is included in these notebooks. However as it takes time to run, we implement the possibility to output files, so that they can be reload later (without running the data processing). this process is lead by the boolean DATA_SAVED (if True, the data building part should be skipped, and only 
+
 ## RS assement
 Contains a notebooks gathering many common recommender used as baseline and comparison
 - "RS_assessement.ipynb" for common Recommender systems used as reference
