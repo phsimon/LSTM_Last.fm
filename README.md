@@ -1,6 +1,7 @@
 # LSTM_Last.fm
 This repository contains notebooks supporting a study on Sequence Aware Recommender System and the importance of the order within the user hsitory.
-The dataset is built from Last.fm dataset (data are organized in sequences of length 20, which are the splitted in two equal parts (10,10): first part will be used as input for training or inference, the second part as label for calculating metrics)
+The dataset is built from Last.fm dataset (data are organized in sequences of length 20, which are the splitted in two equal parts (10,10): first part will be used as input for training or inference, the second part as label for calculating metrics).
+These notebooks has been uploaded from a google/colab environment.
 
 ## Directories
 
